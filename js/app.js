@@ -31,7 +31,7 @@ async function consultarAPI(e) {
     mostrarComentarios();
   } catch (error) {
     console.log(error);
-  }
+  };
 };
 
 function mostrarImagen(img) {
@@ -124,7 +124,7 @@ function borrarComentario(id) {
 
   /* Se manda a llamar de nuevo la función de imprimir en el HTML */
   imprimirComentarios(comment);
-}
+};
 
 function limpiarHTML() {
   while (resultado.firstChild) {
